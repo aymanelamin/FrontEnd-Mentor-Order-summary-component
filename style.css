@@ -1,0 +1,200 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font:inherit;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    height: 100vh;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Red Hat Display", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url("images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+}
+
+.main-container {
+    text-align: center;
+    width: 31.3%;
+    border-radius: 1.8vw;
+    background-color: white;
+}
+
+.illustration-hero {
+  border-radius: 1.8vw 1.8vw 0 0;
+  width: 100%;
+}
+
+
+.Order-Summary {
+  padding: 5%;
+  color: hsl(223, 47%, 23%);
+  font-size: 1.85vw;
+  font-weight: 900;
+}
+
+.Summary-of-order {
+  padding: 0 11%;
+  color: hsl(224, 23%, 55%);
+  font-size: 1.25vw;
+}
+
+.flex-box {
+  display: flex;
+  flex-direction: row;
+  background-color: hsl(225, 100%, 98%);
+  width: 80%;
+  margin: 5% auto;
+  justify-content: center;
+  align-items: center;
+  padding: 4%;
+  border-radius: 1vw;
+  margin-bottom: 7%;
+}
+
+.icon-music {
+  width: 3.2vw;
+}
+
+.price {
+  margin-left: 5%;
+  margin-right: 25%;
+}
+
+.plan-type{
+  color: hsl(223, 47%, 23%);
+  font-weight: 900;
+  margin-bottom: 3%;
+  font-size: 1.25vw;
+}
+
+.annual-price {
+  color: hsl(224, 23%, 55%);
+  font-size: 1.25vw;
+}
+
+.action1 {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+  margin-left: 3%;
+}
+
+.action2 {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  padding: 2.5% 20%;
+  border: none;
+  border-color: transparent;
+  border-radius: 1vw;
+  margin-bottom: 7%;
+}
+
+.action3 {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  margin-bottom: 12%;
+}
+
+.action1:hover {
+  text-decoration: none;
+  color: hsla(245, 75%, 52%, .5);
+  cursor: pointer;
+}
+
+.action2:hover {
+  background-color: hsla(245, 75%, 52%, .5);
+  cursor: pointer;
+}
+
+.action3:hover {
+  color: hsl(223, 47%, 23%);
+  cursor: pointer;
+}
+
+
+@media screen and (max-width:800px) {
+  body {
+    background-image: url("images/pattern-background-mobile.svg");
+  }
+
+  .main-container {
+    width: 90%;
+    border-radius: 5vw;
+  }
+
+.illustration-hero {
+  border-radius: 5vw 5vw 0 0;
+  }
+
+  .Order-Summary {
+    padding-top: 8%;
+    font-size: 6.1vw;
+  }
+
+  .Summary-of-order {
+    padding: 0 11%;
+    line-height: 7vw;
+    font-size: 4.2vw;
+  }
+
+  .flex-box {
+    width: 85%;
+    margin: 7% auto;
+    border-radius: 3vw;
+    margin-bottom: 7%;
+  }
+
+  .icon-music {
+    width: 12vw;
+  }
+
+  .price {
+    margin-left: 8%;
+    margin-right: 14%;
+    
+  }
+  
+  .plan-type{
+    font-weight: 700;
+    margin-bottom: 2%;
+    font-size: 3.9vw;
+  }
+
+  .annual-price {
+    font-size: 3.9vw;
+  }
+  
+  .action1 {
+    font-weight: 700;
+    margin-left: 2.5%;
+    font-size: 3.5vw;
+  }
+
+  .action2 {
+    padding: 4.5% 20%;
+    border-radius: 3vw;
+    margin-bottom: 8%;
+    font-size: 4.2vw;
+  }
+
+  .action3 {
+    font-size: 4.2vw;
+  }
+
+}
+
+
+
+
+
